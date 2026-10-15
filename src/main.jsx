@@ -10,7 +10,7 @@ import {
 } from "@elevenlabs/react";
 import "./styles.css";
 
-const AGENT_ID = "agent_8601kzvvv4v7e2b99kb0mtqxsmfr";
+const AGENT_ID = "agent_7201m4yvdfb6evpasg19cme0d2ew";
 const WELCOME_MESSAGE =
   "Hey, it’s the Fitness Authority Coach. What are you working through in your business today?";
 
