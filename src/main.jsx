@@ -12,7 +12,7 @@ import "./styles.css";
 
 const AGENT_ID = "agent_7901m53btdc4ez98dkqtnyng973a";
 const WELCOME_MESSAGE =
-  "Hey, it’s the Fitness Authority Coach. What are you working through in your business today?";
+  "Welcome to the Fitness Authority Coach. What are you working through in your business today?";
 
 function cleanMessage(message) {
   if (!message || typeof message.message !== "string") return null;
@@ -159,7 +159,7 @@ async function createTranscriptPdf(entries, conversationId) {
   };
 
   try {
-    const logoData = await imageUrlToDataUrl("/fac-logo.png");
+    const logoData = await imageUrlToDataUrl("/authority-coach-logo.png");
     doc.addImage(logoData, "PNG", marginX, y, 68, 68);
   } catch (error) {
     console.warn("Logo could not be added to PDF.", error);
